@@ -17,7 +17,7 @@ public class Repository : IRepository
         PropertyNameCaseInsensitive = true,
     };
 
-    public async Task<HttpResponseWrapper<object>> DeleteAsync<T>(string url)
+    public async Task<HttpResponseWrapper<object>> DeleteAsync(string url)
     {
         var responseHttp = await _httpClient.DeleteAsync(url);
         return new HttpResponseWrapper<object>(null, !responseHttp.IsSuccessStatusCode, responseHttp);
