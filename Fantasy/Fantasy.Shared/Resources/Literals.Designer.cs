@@ -29,7 +29,7 @@ namespace Fantasy.Shared.Resources {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        public Literals() {
+        internal Literals() {
         }
         
         /// <summary>
@@ -142,38 +142,56 @@ namespace Fantasy.Shared.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Error.
-        /// </summary>
-        public static string Error {
-            get {
-                return ResourceManager.GetString("Error", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Record not found.
         /// </summary>
-        public static string ERROR1 {
+        public static string ERR001 {
             get {
-                return ResourceManager.GetString("ERROR1", resourceCulture);
+                return ResourceManager.GetString("ERR001", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Cannot be deleted because it has related records.
         /// </summary>
-        public static string ERROR2 {
+        public static string ERR002 {
             get {
-                return ResourceManager.GetString("ERROR2", resourceCulture);
+                return ResourceManager.GetString("ERR002", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to The record you are trying to create already exists.
         /// </summary>
-        public static string ERROR3 {
+        public static string ERR003 {
             get {
-                return ResourceManager.GetString("ERROR3", resourceCulture);
+                return ResourceManager.GetString("ERR003", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The country Id is not valid.
+        /// </summary>
+        public static string ERR004 {
+            get {
+                return ResourceManager.GetString("ERR004", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The team Id is not valid.
+        /// </summary>
+        public static string ERR005 {
+            get {
+                return ResourceManager.GetString("ERR005", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error.
+        /// </summary>
+        public static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
             }
         }
         
@@ -203,18 +221,16 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("LeaveAndLoseChanges", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to The field {0} cannot be longer than {1} characters.
         /// </summary>
-        public static string MaxLength
-        {
-            get
-            {
+        public static string MaxLength {
+            get {
                 return ResourceManager.GetString("MaxLength", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to New.
         /// </summary>
@@ -259,18 +275,16 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("RecordSavedOk", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Field {0} is required.
         /// </summary>
-        public static string RequiredField
-        {
-            get
-            {
+        public static string RequiredField {
+            get {
                 return ResourceManager.GetString("RequiredField", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Return.
         /// </summary>
@@ -297,18 +311,16 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("Subtitle", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Team.
         /// </summary>
-        public static string Team
-        {
-            get
-            {
+        public static string Team {
+            get {
                 return ResourceManager.GetString("Team", resourceCulture);
             }
         }
-
+        
         /// <summary>
         ///   Looks up a localized string similar to Fantasy.
         /// </summary>

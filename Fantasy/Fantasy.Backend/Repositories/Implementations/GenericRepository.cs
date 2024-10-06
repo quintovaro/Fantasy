@@ -46,7 +46,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
             return new ActionResponse<T>
             {
                 WasSuccess = false,
-                Message = "ERROR1"
+                Message = "ERR001"
             };
         }
 
@@ -64,7 +64,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
             return new ActionResponse<T>
             {
                 WasSuccess = false,
-                Message = "ERROR2"
+                Message = "ERR002"
             };
         }
     }
@@ -77,7 +77,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
             return new ActionResponse<T>
             {
                 WasSuccess = false,
-                Message = "ERROR1"
+                Message = "ERR001"
             };
         }
         return new ActionResponse<T>
@@ -132,7 +132,7 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return new ActionResponse<T>
         {
             WasSuccess = false,
-            Message = "ERROR3"
+            Message = "ERR003"
         };
     }
 }

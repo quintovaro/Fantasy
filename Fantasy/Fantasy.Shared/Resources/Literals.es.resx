@@ -186,13 +186,13 @@
   <data name="RecordCreatedOk" xml:space="preserve">
     <value>Registro creado con éxito</value>
   </data>
-  <data name="ERROR1" xml:space="preserve">
+  <data name="ERR001" xml:space="preserve">
     <value>Registro no encontrado</value>
   </data>
-  <data name="ERROR2" xml:space="preserve">
+  <data name="ERR002" xml:space="preserve">
     <value>No se puede borrar porque tiene registros relacionados</value>
   </data>
-  <data name="ERROR3" xml:space="preserve">
+  <data name="ERR003" xml:space="preserve">
     <value>Ya existe el registro que estás intentando crear</value>
   </data>
   <data name="Team" xml:space="preserve">
@@ -203,5 +203,11 @@
   </data>
   <data name="RequiredField" xml:space="preserve">
     <value>El campo {0} es obligatorio</value>
+  </data>
+  <data name="ERR004" xml:space="preserve">
+    <value>El código del país no es válido</value>
+  </data>
+  <data name="ERR005" xml:space="preserve">
+    <value>El código del equipo no es válido</value>
   </data>
 </root>
