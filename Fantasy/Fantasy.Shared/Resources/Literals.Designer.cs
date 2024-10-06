@@ -29,7 +29,7 @@ namespace Fantasy.Shared.Resources {
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Literals() {
+        public Literals() {
         }
         
         /// <summary>
@@ -203,7 +203,18 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("LeaveAndLoseChanges", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to The field {0} cannot be longer than {1} characters.
+        /// </summary>
+        public static string MaxLength
+        {
+            get
+            {
+                return ResourceManager.GetString("MaxLength", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to New.
         /// </summary>
@@ -248,7 +259,18 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("RecordSavedOk", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Field {0} is required.
+        /// </summary>
+        public static string RequiredField
+        {
+            get
+            {
+                return ResourceManager.GetString("RequiredField", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Return.
         /// </summary>
@@ -275,7 +297,18 @@ namespace Fantasy.Shared.Resources {
                 return ResourceManager.GetString("Subtitle", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Team.
+        /// </summary>
+        public static string Team
+        {
+            get
+            {
+                return ResourceManager.GetString("Team", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Fantasy.
         /// </summary>
